@@ -1,0 +1,112 @@
+/* styling the header*/
+
+div, h1 {
+  font-family: serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  letter-spacing: 8px;
+ 
+}
+
+/* change the background of the body to linen */
+
+body {
+  background-color: linen;
+
+}
+
+/*main Container styling*/
+main {
+  font-family:'Times New Roman', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  height: 100%;
+
+  
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 7px;
+ 
+
+}
+
+h3 {
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 7px;
+}
+
+img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+/*styling the section Container */
+
+
+section {
+	padding: 0 2%;
+  margin: 10px 0;
+  height: auto;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+/* unvisted link color*/
+a:link {
+   color: maroon;
+}
+
+/* change the link color to #332 when visited */
+a:visited {
+   color:#332; 
+}
+
+/* when hovering underline and change the color to grey */
+a:hover {
+  color: grey; 
+  text-decoration: underline;
+}
+
+/*after clicking on the link change color to crimson*/
+a:active {
+  color: crimson;
+}
+
+
+/*navigation style */
+
+nav {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  height: auto;
+  
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 15px;
+  font-family: Quattrocento, cursive, fantasy;
+ 
+}
+
+
+/*footer style */
+
+footer {
+  color: black;
+  font-family: 'Times New Roman',  Calibri,sans-serif;
+  text-align: center;
+}
